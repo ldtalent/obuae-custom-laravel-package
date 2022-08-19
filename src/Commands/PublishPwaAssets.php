@@ -38,15 +38,15 @@ class PublishPwaAssets extends Command
     {
         $publicDir = public_path();
         
-        $manifestTemplate = file_get_contents(__DIR__.'/../stubs/manifest.stub');
+        $manifestTemplate = file_get_contents(__DIR__.'/../Stubs/manifest.stub');
         $this->createFile($publicDir. DIRECTORY_SEPARATOR, 'manifest.json', $manifestTemplate);
         $this->info('manifest.json file is published.');
         
-        $offlineHtmlTemplate = file_get_contents(__DIR__.'/../stubs/offline.stub');
+        $offlineHtmlTemplate = file_get_contents(__DIR__.'/../Stubs/offline.stub');
         $this->createFile($publicDir. DIRECTORY_SEPARATOR, 'offline.html', $offlineHtmlTemplate);
         $this->info('offline.html file is published.');     
         
-        $swTemplate = file_get_contents(__DIR__.'/../stubs/sw.stub');
+        $swTemplate = file_get_contents(__DIR__.'/../Stubs/sw.stub');
         $this->createFile($publicDir. DIRECTORY_SEPARATOR, 'sw.js', $swTemplate);
         $this->info('sw.js (Service Worker) file is published.');     
 
