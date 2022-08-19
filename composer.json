@@ -9,6 +9,11 @@
             "email": "eobua6882@gmail.com"
         }
     ],
+    "autoload": {
+        "psr-4": {
+            "Ldtalent\\Pwa\\": "src/"
+        }
+    },
     "minimum-stability": "stable",
     "require": {}
 }
