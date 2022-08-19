@@ -1,19 +1,29 @@
 {
-    "name": "ldtalent/pwa-laravel",
-    "description": "A laravel package for publishing essential assets for making a laravel app a pwa",
-    "type": "composer-package",
-    "license": "MIT",
-    "authors": [
-        {
-            "name": "Emmanuel Obua",
-            "email": "eobua6882@gmail.com"
-        }
-    ],
-    "autoload": {
-        "psr-4": {
-            "Ldtalent\\Pwa\\": "src/"
-        }
-    },
-    "minimum-stability": "stable",
-    "require": {}
+	"name": "ldtalent/pwa-laravel",
+	"description": "A laravel package for publishing essential assets for making a laravel app a pwa",
+	"type": "composer-package",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Emmanuel Obua",
+			"email": "eobua6882@gmail.com"
+		}
+	],
+	"autoload": {
+		"psr-4": {
+			"LdTalent\\Pwa\\": "src/"
+		}
+	},
+	"extra": {
+		"laravel": {
+			"providers": [
+				"\\LdTalent\\Pwa\\PwaServiceProvider"
+			],
+			"aliases": {
+				"PwaLaravel": "LdTalent\\Pwa\\PwaFacade"
+			}
+		}
+	},
+	"minimum-stability": "stable",
+	"require": {}
 }
