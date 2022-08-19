@@ -1,0 +1,14 @@
+{
+    "name": "ldtalent/pwa-laravel",
+    "description": "A laravel package for publishing essential assets for making a laravel app a pwa",
+    "type": "composer-package",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Emmanuel Obua",
+            "email": "eobua6882@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {}
+}
