@@ -4,7 +4,7 @@ namespace Ldtalent\Pwa;
 
 use Illuminate\Support\ServiceProvider;
 
-use Ldtalent\Pwa\commands\PublishPwaAssets;
+use Ldtalent\Pwa\Commands\PublishPwaAssets;
 
 class PwaServiceProvider extends ServiceProvider
 {
