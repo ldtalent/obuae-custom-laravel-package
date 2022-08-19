@@ -32,6 +32,7 @@
 	"minimum-stability": "stable",
     "require": {
         "php": ">=5.6",
-        "illuminate/support": ">=5.4"
+        "illuminate/support": ">=5.4",
+		"scotteh/php-dom-wrapper": "^2.0"
     }
 }
