@@ -1,6 +1,6 @@
 <?php
 
-namespace Ldtalent\Pwa\Commands;
+namespace LdTalent\Pwa\Commands;
 
 use Illuminate\Support\Facades\File;
 use Illuminate\Console\Command;

@@ -1,10 +1,10 @@
 <?php
 
-namespace Ldtalent\Pwa;
+namespace LdTalent\Pwa;
 
 use Illuminate\Support\ServiceProvider;
 
-use Ldtalent\Pwa\Commands\PublishPwaAssets;
+use LdTalent\Pwa\Commands\PublishPwaAssets;
 
 class PwaServiceProvider extends ServiceProvider
 {
